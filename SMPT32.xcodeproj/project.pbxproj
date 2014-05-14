@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52E93D81923FFED00E9DEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E93D71923FFED00E9DEBC /* Foundation.framework */; };
+		F52E93DA1923FFED00E9DEBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E93D91923FFED00E9DEBC /* CoreGraphics.framework */; };
+		F52E93DC1923FFED00E9DEBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E93DB1923FFED00E9DEBC /* UIKit.framework */; };
+		F52E93E21923FFED00E9DEBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F52E93E01923FFED00E9DEBC /* InfoPlist.strings */; };
+		F52E93E41923FFED00E9DEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52E93E31923FFED00E9DEBC /* main.m */; };
+		F52E93E81923FFED00E9DEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52E93E71923FFED00E9DEBC /* AppDelegate.m */; };
+		F52E93EB1923FFED00E9DEBC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52E93E91923FFED00E9DEBC /* Main_iPhone.storyboard */; };
+		F52E93EE1923FFED00E9DEBC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52E93EC1923FFED00E9DEBC /* Main_iPad.storyboard */; };
+		F52E93F11923FFED00E9DEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52E93F01923FFED00E9DEBC /* ViewController.m */; };
+		F52E93F31923FFED00E9DEBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52E93F21923FFED00E9DEBC /* Images.xcassets */; };
+		F52E93FA1923FFED00E9DEBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E93F91923FFED00E9DEBC /* XCTest.framework */; };
+		F52E93FB1923FFED00E9DEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E93D71923FFED00E9DEBC /* Foundation.framework */; };
+		F52E93FC1923FFED00E9DEBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52E93DB1923FFED00E9DEBC /* UIKit.framework */; };
+		F52E94041923FFED00E9DEBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F52E94021923FFED00E9DEBC /* InfoPlist.strings */; };
+		F52E94061923FFED00E9DEBC /* SMPT32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F52E94051923FFED00E9DEBC /* SMPT32Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52E93FD1923FFED00E9DEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52E93CC1923FFEC00E9DEBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52E93D31923FFED00E9DEBC;
+			remoteInfo = SMPT32;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52E93D41923FFED00E9DEBC /* SMPT32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMPT32.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52E93D71923FFED00E9DEBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F52E93D91923FFED00E9DEBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F52E93DB1923FFED00E9DEBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F52E93DF1923FFED00E9DEBC /* SMPT32-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMPT32-Info.plist"; sourceTree = "<group>"; };
+		F52E93E11923FFED00E9DEBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F52E93E31923FFED00E9DEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F52E93E51923FFED00E9DEBC /* SMPT32-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMPT32-Prefix.pch"; sourceTree = "<group>"; };
+		F52E93E61923FFED00E9DEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F52E93E71923FFED00E9DEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F52E93EA1923FFED00E9DEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F52E93ED1923FFED00E9DEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F52E93EF1923FFED00E9DEBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F52E93F01923FFED00E9DEBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F52E93F21923FFED00E9DEBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F52E93F81923FFED00E9DEBC /* SMPT32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMPT32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52E93F91923FFED00E9DEBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F52E94011923FFED00E9DEBC /* SMPT32Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMPT32Tests-Info.plist"; sourceTree = "<group>"; };
+		F52E94031923FFED00E9DEBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F52E94051923FFED00E9DEBC /* SMPT32Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMPT32Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52E93D11923FFED00E9DEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E93DA1923FFED00E9DEBC /* CoreGraphics.framework in Frameworks */,
+				F52E93DC1923FFED00E9DEBC /* UIKit.framework in Frameworks */,
+				F52E93D81923FFED00E9DEBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52E93F51923FFED00E9DEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E93FA1923FFED00E9DEBC /* XCTest.framework in Frameworks */,
+				F52E93FC1923FFED00E9DEBC /* UIKit.framework in Frameworks */,
+				F52E93FB1923FFED00E9DEBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52E93CB1923FFEC00E9DEBC = {
+			isa = PBXGroup;
+			children = (
+				F52E93DD1923FFED00E9DEBC /* SMPT32 */,
+				F52E93FF1923FFED00E9DEBC /* SMPT32Tests */,
+				F52E93D61923FFED00E9DEBC /* Frameworks */,
+				F52E93D51923FFED00E9DEBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52E93D51923FFED00E9DEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52E93D41923FFED00E9DEBC /* SMPT32.app */,
+				F52E93F81923FFED00E9DEBC /* SMPT32Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52E93D61923FFED00E9DEBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52E93D71923FFED00E9DEBC /* Foundation.framework */,
+				F52E93D91923FFED00E9DEBC /* CoreGraphics.framework */,
+				F52E93DB1923FFED00E9DEBC /* UIKit.framework */,
+				F52E93F91923FFED00E9DEBC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F52E93DD1923FFED00E9DEBC /* SMPT32 */ = {
+			isa = PBXGroup;
+			children = (
+				F52E93E61923FFED00E9DEBC /* AppDelegate.h */,
+				F52E93E71923FFED00E9DEBC /* AppDelegate.m */,
+				F52E93E91923FFED00E9DEBC /* Main_iPhone.storyboard */,
+				F52E93EC1923FFED00E9DEBC /* Main_iPad.storyboard */,
+				F52E93EF1923FFED00E9DEBC /* ViewController.h */,
+				F52E93F01923FFED00E9DEBC /* ViewController.m */,
+				F52E93F21923FFED00E9DEBC /* Images.xcassets */,
+				F52E93DE1923FFED00E9DEBC /* Supporting Files */,
+			);
+			path = SMPT32;
+			sourceTree = "<group>";
+		};
+		F52E93DE1923FFED00E9DEBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52E93DF1923FFED00E9DEBC /* SMPT32-Info.plist */,
+				F52E93E01923FFED00E9DEBC /* InfoPlist.strings */,
+				F52E93E31923FFED00E9DEBC /* main.m */,
+				F52E93E51923FFED00E9DEBC /* SMPT32-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F52E93FF1923FFED00E9DEBC /* SMPT32Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F52E94051923FFED00E9DEBC /* SMPT32Tests.m */,
+				F52E94001923FFED00E9DEBC /* Supporting Files */,
+			);
+			path = SMPT32Tests;
+			sourceTree = "<group>";
+		};
+		F52E94001923FFED00E9DEBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F52E94011923FFED00E9DEBC /* SMPT32Tests-Info.plist */,
+				F52E94021923FFED00E9DEBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52E93D31923FFED00E9DEBC /* SMPT32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52E94091923FFED00E9DEBC /* Build configuration list for PBXNativeTarget "SMPT32" */;
+			buildPhases = (
+				F52E93D01923FFED00E9DEBC /* Sources */,
+				F52E93D11923FFED00E9DEBC /* Frameworks */,
+				F52E93D21923FFED00E9DEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMPT32;
+			productName = SMPT32;
+			productReference = F52E93D41923FFED00E9DEBC /* SMPT32.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52E93F71923FFED00E9DEBC /* SMPT32Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52E940C1923FFED00E9DEBC /* Build configuration list for PBXNativeTarget "SMPT32Tests" */;
+			buildPhases = (
+				F52E93F41923FFED00E9DEBC /* Sources */,
+				F52E93F51923FFED00E9DEBC /* Frameworks */,
+				F52E93F61923FFED00E9DEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52E93FE1923FFED00E9DEBC /* PBXTargetDependency */,
+			);
+			name = SMPT32Tests;
+			productName = SMPT32Tests;
+			productReference = F52E93F81923FFED00E9DEBC /* SMPT32Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52E93CC1923FFEC00E9DEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fontys;
+				TargetAttributes = {
+					F52E93F71923FFED00E9DEBC = {
+						TestTargetID = F52E93D31923FFED00E9DEBC;
+					};
+				};
+			};
+			buildConfigurationList = F52E93CF1923FFEC00E9DEBC /* Build configuration list for PBXProject "SMPT32" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52E93CB1923FFEC00E9DEBC;
+			productRefGroup = F52E93D51923FFED00E9DEBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52E93D31923FFED00E9DEBC /* SMPT32 */,
+				F52E93F71923FFED00E9DEBC /* SMPT32Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52E93D21923FFED00E9DEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E93EE1923FFED00E9DEBC /* Main_iPad.storyboard in Resources */,
+				F52E93F31923FFED00E9DEBC /* Images.xcassets in Resources */,
+				F52E93EB1923FFED00E9DEBC /* Main_iPhone.storyboard in Resources */,
+				F52E93E21923FFED00E9DEBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52E93F61923FFED00E9DEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E94041923FFED00E9DEBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52E93D01923FFED00E9DEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E93F11923FFED00E9DEBC /* ViewController.m in Sources */,
+				F52E93E81923FFED00E9DEBC /* AppDelegate.m in Sources */,
+				F52E93E41923FFED00E9DEBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52E93F41923FFED00E9DEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52E94061923FFED00E9DEBC /* SMPT32Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52E93FE1923FFED00E9DEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52E93D31923FFED00E9DEBC /* SMPT32 */;
+			targetProxy = F52E93FD1923FFED00E9DEBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52E93E01923FFED00E9DEBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52E93E11923FFED00E9DEBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F52E93E91923FFED00E9DEBC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52E93EA1923FFED00E9DEBC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F52E93EC1923FFED00E9DEBC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52E93ED1923FFED00E9DEBC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F52E94021923FFED00E9DEBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52E94031923FFED00E9DEBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52E94071923FFED00E9DEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52E94081923FFED00E9DEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52E940A1923FFED00E9DEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMPT32/SMPT32-Prefix.pch";
+				INFOPLIST_FILE = "SMPT32/SMPT32-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F52E940B1923FFED00E9DEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMPT32/SMPT32-Prefix.pch";
+				INFOPLIST_FILE = "SMPT32/SMPT32-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F52E940D1923FFED00E9DEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMPT32.app/SMPT32";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMPT32/SMPT32-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SMPT32Tests/SMPT32Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F52E940E1923FFED00E9DEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMPT32.app/SMPT32";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMPT32/SMPT32-Prefix.pch";
+				INFOPLIST_FILE = "SMPT32Tests/SMPT32Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52E93CF1923FFEC00E9DEBC /* Build configuration list for PBXProject "SMPT32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52E94071923FFED00E9DEBC /* Debug */,
+				F52E94081923FFED00E9DEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52E94091923FFED00E9DEBC /* Build configuration list for PBXNativeTarget "SMPT32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52E940A1923FFED00E9DEBC /* Debug */,
+				F52E940B1923FFED00E9DEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F52E940C1923FFED00E9DEBC /* Build configuration list for PBXNativeTarget "SMPT32Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52E940D1923FFED00E9DEBC /* Debug */,
+				F52E940E1923FFED00E9DEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52E93CC1923FFEC00E9DEBC /* Project object */;
+}
