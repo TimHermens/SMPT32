@@ -20,6 +20,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     //test
     //test2 bla
+    //test3
+    //test4
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,5 +29,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//test4fef
 
 @end
